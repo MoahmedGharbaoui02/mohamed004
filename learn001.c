@@ -15,5 +15,11 @@ int main(void){
   do{
     printf("Next Change");
     i--;
-  }while( i > 5);
+  }while( i > 5);  
+  
+  
+    for (int i = 0; i < 5; i++){
+    printf("Next Change 2");
+  }
+ 
 }

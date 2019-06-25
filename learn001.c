@@ -11,7 +11,9 @@ int main(void){
     printf("Next Change");
     i++;
   }
-  
+  if(1 == 1){
+    printf("1");
+  }
   do{
     printf("Next Change");
     i--;

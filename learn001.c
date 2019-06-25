@@ -5,4 +5,9 @@ int main(void){
   for (int i = 0; i < 5; i++){
     printf("Next Change");
   }
+  
+  while(i < 5){
+    printf("Next Change");
+    i++;
+  }
 }

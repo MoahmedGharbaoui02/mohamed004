@@ -10,4 +10,12 @@ int main(void){
     printf("Next Change");
     i++;
   }
+  
+  
+  
+  
+    for (int i = 0; i < 5; i++){
+    printf("Next Change 2");
+  }
+  
 }

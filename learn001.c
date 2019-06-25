@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 int main(void){
+  int i = 0;
   printf("Hello World");
-  for (int i = 0; i < 5; i++){
+  for (i; i < 5; i++){
     printf("Next Change");
   }
   
@@ -10,4 +11,9 @@ int main(void){
     printf("Next Change");
     i++;
   }
+  
+  do{
+    printf("Next Change");
+    i--;
+  }while( i > 5);
 }
